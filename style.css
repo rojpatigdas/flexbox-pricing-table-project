@@ -7,7 +7,7 @@
         padding: 0;
       }
       .plan-title {
-        font-weight: bold;
+        font-weight:bold;
         font-size: 1.5rem;
         color: #f1c40f; /* Gold title for better contrast */
       }
