@@ -1,0 +1,65 @@
+
+      body {
+        font-family: "Sono", sans-serif;
+        background-color: #121212; /* Dark background */
+        color: #ffffff; /* White text */
+        margin: 0;
+        padding: 0;
+      }
+      .plan-title {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #f1c40f; /* Gold title for better contrast */
+      }
+      .plan-price {
+        font-weight: bold;
+        font-size: 2rem;
+        color: #2ecc71; /* Bright green for price */
+      }
+      .plan-button {
+        background-color: #2ecc71; /* Green button */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 1rem;
+        margin-top: 15px;
+        transition: background-color 0.3s;
+      }
+      .plan-button:hover {
+        background-color: #27ae60; /* Darker green on hover */
+      }
+      .plan-features {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        color: #bdc3c7; /* Light gray for features */
+        font-size: 1rem;
+      }
+      .pricing-container {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        height: 100vh;
+        align-items: center;
+      }
+      .pricing-plan {
+        background-color: #1e1e1e; /* Dark card background */
+        border: 2px solid #2c3e50; /* Dark blue border */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Dark shadow */
+        flex-basis: 300px;
+        min-width: 300px;
+        padding: 40px;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      /* Responsive Flexbox on smaller screens */
+      @media (max-width: 1250px) {
+        .pricing-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
